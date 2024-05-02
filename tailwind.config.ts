@@ -7,10 +7,6 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      'mobile': '375px',
-      'desktop': '1440px',
-    },
     extend: {
       colors: {
         'primary-pale-blue': 'var(--primary-pale-blue)',
@@ -18,7 +14,11 @@ const config: Config = {
         'neutral-pale-blue': 'var(--neutral-pale-blue)',
         'neutral-desaturated-blue': 'var(--neutral-desaturated-blue)',
         'neutral-dark-blue': 'var(--neutral-dark-blue)'
-      }
+      },
+      screens: {
+        'mobile': '375px',
+        'desktop': '1440px',
+      },
     },
   },
   plugins: [],
