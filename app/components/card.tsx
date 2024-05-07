@@ -15,7 +15,7 @@ export default function Card() {
 
       <div id='card-content' className='text-center p-6 flex flex-col gap-6'>
 
-        <h1 className='font-[500] text-neutral-dark-blue'>Order Summary</h1>
+        <h1 className='font-bold text-neutral-dark-blue text-lg'>Order Summary</h1>
 
         <p className='text-[16px] text-neutral-desaturated-blue'>
           You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!

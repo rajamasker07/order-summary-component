@@ -9,10 +9,10 @@ export default function PaymentPlan() {
       <div className='inline-flex gap-6'>
         <Image src={iconMusic} alt='icon-music' className=""/>
         <div className='text-left'>
-          <h1 className='font-bold text-lg'>
+          <h1 className='font-bold text-neutral-dark-blue text-md'>
             Annual Plan
           </h1>
-          <p className='text-sm font-normal'>
+          <p className='text-sm font-normal text-neutral-desaturated-blue'>
             $59.99/year
           </p>
         </div>
