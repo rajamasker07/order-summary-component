@@ -28,7 +28,7 @@ export default function Card() {
         </button>
 
         <button className='flex place-items-center place-content-center w-full h-10 bg-none text-neutral-dark-blue font-bold'>
-          Cance Order
+          Cancel Order
         </button>
 
       </div>
